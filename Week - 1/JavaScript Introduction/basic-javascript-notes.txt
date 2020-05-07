@@ -1,0 +1,45 @@
+JavaScript
+
+---------------------------------------------------------------------------------
+
+VARIABLES
+
+There are 3 ways to declare variables in JavaScript.
+      
+1) var keyword
+    - declares variables in a global scope
+    - now-a-days avoided
+
+2) let keyword
+    - declares variables at a block level
+    - used when the variables need to be re-assinged a values
+3) const keyword
+    - declares variables at a block level
+    - used when variables need to store permanent values
+    - used most of the times for security.
+    - when declaring this, we need to assign it a value
+    - if tried to re-assign will give:
+        Uncaught TypeError: Assignment to constant variable.
+
+---------------------------------------------------------------------------------
+
+DATA TYPES
+
+There are 5 major types of data structures
+
+1) string
+2) number
+    - there is only one type - number
+    - float, decimal, integer all come under number
+3) boolean
+    - true or false
+4) null
+    - null meaning empty
+5) undefined
+    - means declared but not defined
+
+null VS undefined
+
+- null is an empty value which can be assinged to a varible
+- to assign a null value to a variable, it must be declared and defined
+
