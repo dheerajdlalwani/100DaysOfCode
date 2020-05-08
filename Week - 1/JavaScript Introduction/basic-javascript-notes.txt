@@ -66,3 +66,16 @@ Then
 3) example.unshift(<element>) = will add the <element> at the beginning of the array
 4) example.indexOf(<element>) = will return the index of <element> in the array
 
+---------------------------------------------------------------------------------
+
+OBJECT LITERALS
+
+Object literals are a group of Key-Value pairs
+Consider them as struct in C/C++ or dictionary in Python.
+
+values are acessed using the dot notation.
+for example 
+objName.key
+
+---------------------------------------------------------------------------------
+

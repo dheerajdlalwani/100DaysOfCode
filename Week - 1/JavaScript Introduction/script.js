@@ -91,3 +91,30 @@ console.log(`My new list of mortal enemies = [${mortalEnemies}]`);
 mortalEnemies.pop();
 console.log(`My new list of mortal enemies = [${mortalEnemies}]`);
 console.log(`Index of 'Mumbai' in my list = ${mortalEnemies.indexOf('Mumbai')}`);
+
+// Object Literals
+const coder = {
+    firstName: 'Robert',
+    lastName: 'Zane',
+    age: 57,
+    weaponOfChoice: 'Python',
+    arsenal: ['Python', 'HTML', 'CSS', 'JS', 'C++', 'Java'],
+    projects: {
+        Android: 'Resource Manager',
+        WebDev: 'Customer Management System',
+        DataAnalysis: 'COVID-19 Prediction System'
+    }
+}
+console.log(`The properties of my coder are = `);
+console.log(`First Name = ${coder.firstName}`);
+console.log(`Last Name = ${coder.lastName}`);
+console.log(`Age = ${coder.age}`);
+console.log(`Weapon of choice = ${coder.weaponOfChoice}`);
+console.log(`Arsenal Includes = [${coder.arsenal}]`);
+console.log(`Projects are = [${coder.projects.Android}, ${coder.projects.DataAnalysis} & ${coder.projects.WebDev}]`);
+coder.email = 'zanerobzane@gmail.com';
+console.log(`Email: ${coder.email}`);
+
+
+
+
