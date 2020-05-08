@@ -43,3 +43,26 @@ null VS undefined
 - null is an empty value which can be assinged to a varible
 - to assign a null value to a variable, it must be declared and defined
 
+---------------------------------------------------------------------------------
+
+STRING METHODS
+
+Suppose 'example' is a string variable
+Then
+1) example.lenght = returns length of the string
+2) example.toUpperCase() = returns the same string with all letters in UPPER CASE
+3) example.toLowerCase() = returns the same string with all letters in LOWER CASE
+4) example.split(<any character you want to use as a seperator>) = returns an array of 
+   strings made from the original string with being broken at the specified seperator
+
+---------------------------------------------------------------------------------
+
+ARRAY METHODS
+
+Suppose 'example' is an array
+Then
+1) example.push(<element>) = will append the <element> at the back of the array
+2) example.pop() = will remove the last element of the array
+3) example.unshift(<element>) = will add the <element> at the beginning of the array
+4) example.indexOf(<element>) = will return the index of <element> in the array
+
