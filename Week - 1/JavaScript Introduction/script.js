@@ -115,6 +115,50 @@ console.log(`Projects are = [${coder.projects.Android}, ${coder.projects.DataAna
 coder.email = 'zanerobzane@gmail.com';
 console.log(`Email: ${coder.email}`);
 
+// JSON
+const coderJSON = JSON.stringify(coder);
+console.log(coderJSON);
 
+// LOOPS
+for(let z = 0; z <= 7; z++)
+{
+    console.log(`Hit ${z}`);
+}
+let y = 0;
+while(y<=7)
+{
+    console.log(`Big Hit ${y}`);
+    y = y + 1;
+}
+ 
+//Class
+class CodeMaster
+{
+    constructor(fName, lName, dob, lang)
+    {
+        this.fName = fName;
+        this.lName = lName
+        this.dob = new Date(dob);
+        this.lang = lang;
+    }
+    getBirthYear()
+    {
+        return this.dob.getFullYear;
+    }
+    getFullName() 
+    {
+        return `${this.fName} ${this.lName}`;
+    }
+    getLanguage()
+    {
+        return this.lang;
+    }
+}
 
-
+//Instantiate Objects
+const master1 = new CodeMaster('Mike', 'Ross', '03-22-2006', 'Python');
+const master2 = new CodeMaster('Rachel', 'Zane', '03-22-2008', 'JavaScript');
+console.log(master1);
+console.log(master2);
+console.log(master1.getLanguage());
+console.log(master2.getLanguage());
