@@ -1,0 +1,25 @@
+Stuff to always write before any Go program!
+
+----------------------------------
+package main
+
+import "fmt"
+----------------------------------
+
+The curly braces to begin immediately after a space after the end of a function name or block name
+For example:
+
+CORRECT METHOD
+----------------------------------
+func main() {
+	statements
+}
+----------------------------------
+
+INCORRECT METHOD
+----------------------------------
+func main() 
+{
+	statements
+}
+----------------------------------
