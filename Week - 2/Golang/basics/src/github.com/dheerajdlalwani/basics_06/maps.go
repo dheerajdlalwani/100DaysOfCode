@@ -18,8 +18,13 @@ func main() {
 	fmt.Println(score)
 	getTanyaScore := score["Tanya"]
 	fmt.Println(getTanyaScore)
-	delete(score, "Devika")
+	//delete(score, "Devika") //uncomment to see if it deletes
 	fmt.Println(score["Devika"])
 	fmt.Println(score)
+
+	//looping through the key-value pairs or maps
+	for k, v := range score {
+		fmt.Printf("Score of %v is %v\n", k, v)
+	}
 
 }
